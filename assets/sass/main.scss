@@ -441,6 +441,12 @@
 			display: block;
 			margin: 0 0 2em 0;
 		}
+
+		&.colabs {
+			img {
+				max-height: 140px;
+			}
+		}
 	}
 
 	.sponsor {
@@ -479,7 +485,7 @@
 		line-height: 4em;
 
 		&:hover {
-			background-color: #f98780;
+			background-color: #80cdf9;
 		}
 
 		&.large {
@@ -488,15 +494,15 @@
 		}
 
 		&.style1 {
-			background: #e97770 url('images/overlay.png');
+			background: #4D90FF url('images/overlay.png');
 			color: #fff;
 
 			&:hover {
-				background-color: #f98780;
+				background-color: #80cdf9;
 			}
 
 			&:active {
-				background-color: #d96760;
+				background-color: #60c1d9;
 			}
 		}
 
@@ -637,7 +643,7 @@
 		}
 
 		h3 {
-			color: #e97770 !important;
+			color: #4D90FF !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -790,12 +796,12 @@
 		}
 
 		&.style1 {
-			background: #e97770 url('images/overlay.png');
+			background: #4D90FF url('images/overlay.png');
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 
 			.title {
-				background: #e97770 url('images/overlay.png');
+				background: #4D90FF url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -869,7 +875,7 @@
 		width: 100%;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		top: -5em;
 
 		h1 {
 			font-weight: 900;
@@ -1053,7 +1059,7 @@
 			text-align: center;
 
 			h3 {
-				color: #e97770;
+				color: #4D90FF;
 				margin: 0 0 0.75em 0;
 				font-size: 1.15em;
 				letter-spacing: 0.05em;
