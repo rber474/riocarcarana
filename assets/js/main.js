@@ -72,8 +72,8 @@
 			$("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
 				.css({
 					'color': '#544F4B',
-					'font-family': 'Roboto',
-									'width':'100%'
+					// 'font-family': 'Roboto',
+					'width':'50%'
 				});
 			// Change menu's padding
 			$("iframe").contents().find('.goog-te-menu2-item-selected').css ('display', 'none');
@@ -112,7 +112,7 @@
 			// Change iframes's size
 			$("iframe").contents().find('.goog-te-menu2').css({
 				'height': '100%',
-				'width': '100%'
+				'width': '50%'
 			});
 		});
 	});
