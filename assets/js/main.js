@@ -106,13 +106,14 @@
 			// Change the iframe's size and position?
 			$(".goog-te-menu-frame").css({
 				'height': '100%',
-				'width': '100%',
-				'top': '0px'
+				'width': '50%',
+				'top': '0px',
+				// 'left': '0px'
 			});
 			// Change iframes's size
 			$("iframe").contents().find('.goog-te-menu2').css({
 				'height': '100%',
-				'width': '50%'
+				'width': '100%'
 			});
 		});
 	});

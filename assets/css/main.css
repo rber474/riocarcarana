@@ -1797,10 +1797,11 @@ body {
     width: 100% !important; }
     #google_translate_wrapper goog-te-gadget {
       width: 100% !important; }
+    #google_translate_wrapper .goog-te-menu-frame {
+      left: 0px !important; }
     #google_translate_wrapper .skiptranslate {
-      width: 100% !important; }
+      width: 50% !important; }
     #google_translate_wrapper .goog-te-gadget-simple {
-      width: calc(100% - 32px) !important;
       text-align: center; } }
 /* Small */
 @media screen and (max-width: 736px) {

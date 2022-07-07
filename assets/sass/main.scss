@@ -1556,11 +1556,14 @@
 				goog-te-gadget {
 					width:100%!important;
 				}
+				.goog-te-menu-frame {
+					left: 0px!important;
+				}
 				.skiptranslate {
-					width:100%!important;
+					width:50%!important;
 				}
 				.goog-te-gadget-simple {
-					width: calc(100% - 32px)!important;
+					// width: calc(100% - 32px)!important;
 					text-align: center;
 				}	
 			}
