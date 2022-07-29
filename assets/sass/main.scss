@@ -494,7 +494,7 @@
 		}
 
 		&.style1 {
-			background: #4D90FF url('images/overlay.png');
+			background: #43b7d1 url('images/overlay.png');
 			color: #fff;
 
 			&:hover {
@@ -643,7 +643,7 @@
 		}
 
 		h3 {
-			color: #4D90FF !important;
+			color: #43b7d1 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -651,7 +651,7 @@
 			&:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url('images/overlay.png');
+				background: #43b7d1 url('images/overlay.png');
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -796,12 +796,12 @@
 		}
 
 		&.style1 {
-			background: #4D90FF url('images/overlay.png');
+			background: #43b7d1 url('images/overlay.png');
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 
 			.title {
-				background: #4D90FF url('images/overlay.png');
+				background: #43b7d1 url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -896,6 +896,10 @@
 		}
 	}
 
+	.enhanced-title, #logo > p {
+		color: #43b7d1;
+		text-shadow: 1px 0px #3f4c95;
+	}
 /* Nav */
 
 	#nav {
@@ -1059,7 +1063,7 @@
 			text-align: center;
 
 			h3 {
-				color: #4D90FF;
+				color: #43b7d1;
 				margin: 0 0 0.75em 0;
 				font-size: 1.15em;
 				letter-spacing: 0.05em;
@@ -1158,7 +1162,7 @@
 
 			h3 {
 				&:before {
-					background: #3d4249 url('images/overlay.png');
+					background: #43b7d1 url('images/overlay.png');
 				}
 			}
 		}

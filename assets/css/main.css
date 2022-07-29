@@ -984,7 +984,7 @@ button,
   input[type="reset"].style1,
   button.style1,
   .button.style1 {
-    background: #4D90FF url("images/overlay.png");
+    background: #43b7d1 url("images/overlay.png");
     color: #fff; }
     input[type="button"].style1:hover,
     input[type="submit"].style1:hover,
@@ -1109,14 +1109,14 @@ ul.actions {
       border-top: 0;
       padding-top: 0; } }
   .feature-list h3 {
-    color: #4D90FF !important;
+    color: #43b7d1 !important;
     margin: -0.35em 0 0.75em 0;
     font-size: 1.15em;
     letter-spacing: 0.05em; }
     .feature-list h3:before {
       display: block;
       color: #fff;
-      background: #2f333b url("images/overlay.png");
+      background: #43b7d1 url("images/overlay.png");
       border-radius: 2.5em;
       text-align: center;
       width: 2.5em;
@@ -1224,11 +1224,11 @@ ul.actions {
       height: 38px;
       background: url("images/shadow.png"); }
   .wrapper.style1 {
-    background: #4D90FF url("images/overlay.png");
+    background: #43b7d1 url("images/overlay.png");
     color: #eee;
     color: rgba(255, 255, 255, 0.75); }
     .wrapper.style1 .title {
-      background: #4D90FF url("images/overlay.png");
+      background: #43b7d1 url("images/overlay.png");
       color: #fff; }
     .wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
       color: #fff; }
@@ -1300,6 +1300,10 @@ ul.actions {
     display: block;
     letter-spacing: 0.2em;
     font-size: 1.2em; }
+
+.enhanced-title, #logo > p {
+  color: #43b7d1;
+  text-shadow: 1px 0px #3f4c95; }
 
 /* Nav */
 #nav {
@@ -1413,7 +1417,7 @@ ul.actions {
 #highlights .highlight {
   text-align: center; }
   #highlights .highlight h3 {
-    color: #4D90FF;
+    color: #43b7d1;
     margin: 0 0 0.75em 0;
     font-size: 1.15em;
     letter-spacing: 0.05em; }
@@ -1483,7 +1487,7 @@ ul.actions {
   #footer .feature-list section {
     border-top-color: rgba(255, 255, 255, 0.05); }
   #footer .feature-list h3:before {
-    background: #3d4249 url("images/overlay.png"); }
+    background: #43b7d1 url("images/overlay.png"); }
 
 /* Copyright */
 #copyright {
